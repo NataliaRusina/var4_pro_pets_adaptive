@@ -1,0 +1,28 @@
+* {
+    /*border: solid black 1px;*/
+
+}
+
+div {
+    min-height: 1px;
+}
+
+
+button,
+button:active,
+button:focus {
+    outline: none;
+}
+
+button:hover{
+    color: darkorange;
+}
+
+button:active {
+    border: solid lightgray 3px;
+}
+
+
+
+
+
