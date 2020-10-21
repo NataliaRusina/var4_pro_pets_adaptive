@@ -5,11 +5,11 @@ import pic from "../../images/group_87.png";
 const Footer = () => {
     return (
         <div className={`container-fluid row p-0 m-0 ${styles.footer}`}>
-            <div className={`col-12 col-md-4 d-flex flex-wrap align-content-center justify-content-center mt-3 mb-3`}>
+            <div className={`col-12 col-sm-4 d-flex flex-wrap align-content-center justify-content-center mt-3 mb-3`}>
                 <img src={pic} alt='pic'/>
             </div>
             <div
-                className={`row col-12 col-md-4 d-flex flex-wrap align-content-center justify-content-start mt-3 mb-3`}>
+                className={`row col-12 col-sm-4 d-flex flex-wrap align-content-center justify-content-start mt-3 mb-3`}>
                 <div className={`col-12 ${styles.icons}`}>
 
                    <button>
@@ -25,9 +25,9 @@ const Footer = () => {
                 </div>
             </div>
             <div
-                className={`row col-12 col-md-4 row d-flex flex-wrap align-content-center justify-content-center mt-3 mb-3`}>
-                <div className='col-6'>
-                    <ul className='fa-ul'>
+                className={`row col-12 col-sm-4 row d-flex flex-wrap align-content-center justify-content-center mt-3 mb-3`}>
+                <div className='col-sm-12 col-md-6'>
+                    <ul className='fa-ul mb-0'>
 
                         <li>
                             <button>
@@ -46,8 +46,8 @@ const Footer = () => {
                         </li>
                     </ul>
                 </div>
-                <div className='col-6'>
-                    <ul className='fa-ul'>
+                <div className='col-sm-12 col-md-6'>
+                    <ul className='fa-ul mb-0'>
                         <li>
                             <button>
                                 <i className="fa-li fa fa-h-square"/>Hotels

@@ -4,8 +4,7 @@
     background: #FFFFFF 0 0 no-repeat padding-box;
     box-shadow: 0 3px 6px #00000029;
     opacity: 1;
-    margin: 1rem;
-    padding: 1rem;
+
 }
 
 .fingers_crossed {
@@ -22,7 +21,7 @@
 }
 
 .confirm_publ_button {
-    width: 10rem;
+    /*width: 10rem;*/
     height: 2.5rem;
     background: #84B6A3 0 0 no-repeat padding-box;
     border: 1px solid #8DBFAC;
@@ -30,7 +29,7 @@
     opacity: 1;
     color: #FFFFFF;
     font-size: 0.75rem;
-    margin: 0 1rem;
+
 }
 
 .confirm_publ_button:hover, .confirm_edit_button:hover {
@@ -57,7 +56,7 @@
 
 
 .confirm_edit_button{
-    width: 8rem;
+    /*width: 8rem;*/
     height: 2.5rem;
     background: #FFFFFF 0 0 no-repeat padding-box;
     border: 1px solid #669885;
@@ -65,7 +64,7 @@
     opacity: 1;
     color: #669885;
     font-size: 0.75rem;
-    margin-right: 1rem;
+
 }
 
 .confirm_last_info{

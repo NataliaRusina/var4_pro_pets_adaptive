@@ -6,7 +6,7 @@ import ServicePost from "../4_th_level/Service_post";
 
 const ServicesWalking = () => {
     return (
-        <div>
+        <div className={`container-fluid`}>
             <div className={`${styles.board_header}`}>
                 <h5>{walking_head}</h5>
             </div>

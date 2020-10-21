@@ -6,8 +6,7 @@
     background: #FFFFFF 0 0 no-repeat padding-box;
     box-shadow: 0 3px 6px #00000029;
     opacity: 1;
-    margin: 1rem;
-    padding: 1rem;
+
 }
 
 
@@ -18,15 +17,15 @@
 }
 
 .lost_found_draft>.form_div>form>label{
-    width: 5rem;
-    font-size: 0.75rem;
+    /*width: 5rem;*/
+    font-size: 0.7rem;
     color: #393939;
 }
 
 .lost_found_draft>.form_div>form>input,
 .lost_found_draft>.form_div>form>textarea,
 .lost_found_draft>.form_div>form>select{
-    width: 13rem;
+    /*width: 13rem;*/
     font-size: 0.7rem;
     text-align: start;
     align-content: start;
@@ -61,7 +60,7 @@
 
 .contacts>form>input,
 .contacts>form>label{
-    width: 8rem;
+    /*width: 8rem;*/
     margin: 0 5px;
     padding: 0;
     text-align: start;

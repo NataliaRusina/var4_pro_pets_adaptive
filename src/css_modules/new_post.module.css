@@ -1,11 +1,11 @@
 .empty_board {
-    width: 41rem;
+    /*width: 41rem;*/
     min-height: auto;
     background: #FFFFFF 0 0 no-repeat padding-box;
     box-shadow: 0 3px 6px #00000029;
     opacity: 1;
-    margin: 1rem;
-    padding: 1rem;
+    /*margin: 1rem;*/
+    /*padding: 1rem;*/
 }
 
 .post_instr strong {

@@ -7,7 +7,7 @@ const LeftSideBarExpanded = () => {
         <div className={`container-fluid ${styles.left_side_bar} ml-0 pl-0 d-flex flex-wrap justify-content-end 
             align-content-stretch`}>
 
-            <div className={`container-fluid col-12 {styles.menu} mx-0 px-0`}>
+            <div className='container-fluid col-12 {styles.menu} mx-0 px-0'>
 
                 {/*===================================================================================================================================================================*/}
 
@@ -15,23 +15,23 @@ const LeftSideBarExpanded = () => {
 
                     <div className='container-fluid col-12 m-0 p-0 d-flex flex-wrap justify-content-end
                     align-items-center'>
-                        <button className="fa fa-home col-12  container-fluid d-flex
+                        <button className="fa fa-home col-12 pl-lg-5  container-fluid d-flex
                              justify-content-start"><p className='pl-5'>Home</p>
                         </button>
                     </div>
                     <div className='container-fluid col-12 m-0 p-0 d-flex flex-wrap justify-content-end
                     align-items-center'>
-                        <button className="fa fa-search col-12 container-fluid d-flex
+                        <button className="fa fa-search col-12 pl-lg-5 container-fluid d-flex
                               justify-content-start"><p className='pl-5'>Lost</p></button>
                     </div>
                     <div className='container-fluid col-12 m-0 p-0 d-flex flex-wrap justify-content-end
                     align-items-center'>
-                        <button className="fa fa-paw col-12 container-fluid d-flex
+                        <button className="fa fa-paw col-12 pl-lg-5 container-fluid d-flex
                               justify-content-start"><p className='pl-5'>Found</p></button>
                     </div>
                     <div className='container-fluid col-12 m-0 p-0 d-flex flex-wrap justify-content-end
                     align-items-center'>
-                        <button id='accordion' className={`${styles.accordion} col-12 fa fa-bullhorn 
+                        <button id='accordion' className={`${styles.accordion} col-12 pl-lg-5 fa fa-bullhorn 
                         container-fluid d-flex  justify-content-start`} onClick={() => {
                             console.log('Services click');
                             const acc = document.getElementById('accordion');
@@ -51,22 +51,22 @@ const LeftSideBarExpanded = () => {
                             <div className='container-fluid col-12 d-flex flex-wrap justify-content-end
                     align-items-center'>
                                 <button className="fa fa-h-square container-fluid d-flex
-                              justify-content-start"><p className='pl-5'>Hotels</p></button>
+                              justify-content-start pl-lg-5"><p className='pl-5'>Hotels</p></button>
                             </div>
-                            <div className='container-fluid col-12  d-flex flex-wrap justify-content-end
+                            <div className='container-fluid col-12 d-flex flex-wrap justify-content-end
                     align-items-center'>
                                 <button className="fa fa-tree container-fluid d-flex
-                              justify-content-start"><p className='pl-5'>Walking</p></button>
+                              justify-content-start pl-lg-5"><p className='pl-5'>Walking</p></button>
                             </div>
                             <div className='container-fluid col-12  d-flex flex-wrap justify-content-end
                     align-items-center'>
                                 <button className="fa fa-paw container-fluid d-flex
-                              justify-content-start"><p className='pl-5'>Fostering</p></button>
+                              justify-content-start pl-lg-5"><p className='pl-5'>Fostering</p></button>
                             </div>
-                            <div className='container-fluid col-12  d-flex flex-wrap justify-content-end
+                            <div className='container-fluid col-12 d-flex flex-wrap justify-content-end
                     align-items-center'>
                                 <button className="fa fa-stethoscope container-fluid d-flex
-                              justify-content-start"><p className='pl-5'>VetHelp</p></button>
+                              justify-content-start pl-lg-5"><p className='pl-5'>VetHelp</p></button>
                             </div>
 
                         </div>
@@ -74,7 +74,7 @@ const LeftSideBarExpanded = () => {
                     <div className='container-fluid col-12 m-0 p-0 d-flex flex-wrap justify-content-end
                     align-items-center'>
                         <button className="fa fa-star col-12 container-fluid d-flex
-                              justify-content-start"><p className='pl-5'>Favorites</p></button>
+                              justify-content-start pl-lg-5"><p className='pl-5'>Favorites</p></button>
                     </div>
 
                 </div>

@@ -5,7 +5,7 @@ import ConfirmationDraft from "../4_th_level/Confirmation_draft";
 
 const ConfirmationPost = () => {
     return (
-        <div>
+        <div className='container-fluid'>
             <div className={`${styles.board_header}`}>
                 <h5>{preview_head}</h5>
             </div>

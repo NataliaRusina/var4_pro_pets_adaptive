@@ -11,12 +11,12 @@ const Start_page = () => {
         //================================================================== START PAGE =================================
 
         <div className='d-flex flex-wrap justify-content-center'>
-            <div>
+            <div className='w-100'>
                 <Header_green/>
                 <Start_main_block/>
                 <Footer/>
             </div>
-            <div className={`col-10 col-md-8 col-lg-6 ${styles.front} ${styles.no_display}`}>
+            <div className={`col-10 col-sm-8 col-lg-6 ${styles.front} ${styles.no_display}`}>
                 <SignInFrontal/>
             </div>
         </div>

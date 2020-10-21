@@ -7,10 +7,10 @@ const BrowsePhotos = () => {
         <div className='row m-0 pt-3 pb-3'>
             <div className={`${styles.browse_photos} b-0 col-6 container d-flex flex-wrap column justify-content-center 
                             align-content-center`}>
-                <button><img src={drop}/></button>
+                <button className='d-none d-md-flex'><img src={drop}/></button>
                 <p className='mt-1'>Drag and drop photos or</p>
                 <div className={`${styles.br_button}`}>
-                    <button>Browse</button>
+                    <button className='col-12'>Browse</button>
                 </div>
 
             </div>

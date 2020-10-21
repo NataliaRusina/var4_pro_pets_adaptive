@@ -16,7 +16,7 @@ import Profile_deactivated from "../3_rd_level/Profile_deactivated";
 
 const Content = () => {
     return (
-        <div className={`container d-flex flex-wrap column align-content-start justify-content-center m-0 mt-2 p-3 
+        <div className={`container d-flex flex-wrap column align-content-start justify-content-center m-0 mt-2 p-2 
         ${styles.content}`}>
             <Adding_new_lost/>
             <Adding_new_found/>

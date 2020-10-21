@@ -5,7 +5,7 @@ import Lost_found_draft from "../4_th_level/Lost_found_draft";
 
 const AddingNewFound = () => {
     return (
-        <div>
+        <div className={`container-fluid`}>
             <div className={`${styles.board_header}`}>
                 <h5>{found_head}</h5>
             </div>

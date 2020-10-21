@@ -5,7 +5,7 @@ import NewPost from "../4_th_level/New_post";
 
 const AddingNewPost = () => {
     return (
-        <div>
+        <div className='container-fluid'>
             <div className={`${styles.board_header}`}>
                 <h5>{new_post}</h5>
             </div>

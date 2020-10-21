@@ -5,7 +5,7 @@ import ServicePost from "../4_th_level/Service_post";
 
 const ServicesVetHelp = () => {
     return (
-        <div>
+        <div className={`container-fluid`}>
             <div className={`${styles.board_header}`}>
                 <h5>{vet_help_head}</h5>
             </div>

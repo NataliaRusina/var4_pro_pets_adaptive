@@ -20,7 +20,7 @@
 }
 
 .empty_board {
-    width: 41rem;
+    /*width: 41rem;*/
     min-height: auto;
     background: #FFFFFF 0 0 no-repeat padding-box;
     box-shadow: 0 3px 6px #00000029;
@@ -77,16 +77,16 @@
 
 .profile_form label {
     color: #393939;
-    font-size: 1rem;
+    /*font-size: 1rem;*/
     margin-right: 2rem;
 }
 
 .profile_form input {
     border: none;
     border-bottom: solid #669885 1px;
-    font-size: 0.75rem;
+    font-size: 0.6rem;
     color: #669885;
-    width: 20rem;
+    /*width: 20rem;*/
 
 }
 
@@ -113,7 +113,7 @@
 }
 
 .saveChangesBut {
-    width: 10rem;
+    /*width: 10rem;*/
     height: 2.5rem;
     background: #84B6A3 0 0 no-repeat padding-box;
     border: 1px solid #8DBFAC;
@@ -121,7 +121,7 @@
     opacity: 1;
     color: #FFFFFF;
     font-size: 0.75rem;
-    margin: 0 1rem;
+    /*margin: 0 1rem;*/
 }
 
 .saveChangesBut:hover, .cancelChangesBut:hover {
@@ -148,7 +148,7 @@
 
 
 .cancelChangesBut{
-    width: 8rem;
+    /*width: 8rem;*/
     height: 2.5rem;
     background: #FFFFFF 0 0 no-repeat padding-box;
     border: 1px solid #669885;
@@ -156,5 +156,5 @@
     opacity: 1;
     color: #669885;
     font-size: 0.75rem;
-    margin-right: 1rem;
+    /*margin-right: 1rem;*/
 }

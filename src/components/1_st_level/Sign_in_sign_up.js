@@ -13,7 +13,7 @@ const SignInSignUp = () => {
                 <Start_main_block/>
                 <Footer/>
             </div>
-            <div className={`col-10 col-md-8 col-lg-6 ${styles.front} ${styles.display}`}>
+            <div className={`col-12 col-sm-10 col-lg-6 m-0 mt-2 mt-sm-5 ${styles.front} ${styles.display}`}>
                 <SignInFrontal/>
             </div>
         </div>

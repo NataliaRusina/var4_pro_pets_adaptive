@@ -1,5 +1,5 @@
 .empty_board {
-    width: 41rem;
+    /*width: 41rem;*/
     min-height: auto;
     background: #FFFFFF 0 0 no-repeat padding-box;
     box-shadow: 0 3px 6px #00000029;
@@ -68,22 +68,22 @@
 }
 
 .confirm_photo_div> img{
-    width: 16rem;
-    height: 16rem;
+    /*width: 16rem;*/
+    /*height: 16rem;*/
     object-fit: cover;
 }
 
-.confirm_info_div{
+.confirm_info_div, .postName{
     color: #669885;
 }
 
-.confirm_info_div div {
-    font-size: 0.75rem;
-}
+/*.confirm_info_div div {*/
+/*    font-size: 0.75rem;*/
+/*}*/
 
-.confirm_info_div .postName {
-    font-size: 1rem;
-}
+/*.confirm_info_div .postName {*/
+/*    font-size: 1rem;*/
+/*}*/
 
 .upd_button{
     margin: 0 1rem;
@@ -114,7 +114,7 @@
 }
 
 .confirm_contact_button {
-    margin: 0 1rem;
+    /*margin: 0 1rem;*/
     width: 1.3rem;
     height: 1rem;
     background-color: lightgray;
